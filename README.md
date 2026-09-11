@@ -3,8 +3,8 @@
 
 ## 🧑‍💻 Biodata Mahasiswa
 - **Nama:** Iqhsan Saleh
-- **NIM:** [Nomor Induk Mahasiswa]
-- **Kelas:** [Kelas Anda, contoh: IF-45-01]
+- **NIM:** 2225250021
+- **Kelas:** 3A
 
 ---
 
@@ -26,18 +26,24 @@ Repositori ini dibuat untuk memenuhi tugas mata kuliah Algoritma dan Pemrograman
 
 ---
 
-## 💻 Cara Menjalankan Program
-Ikuti langkah-langkah berikut untuk menjalankan program dari terminal:
+## 💻 Cara Menjalankan Program di VS Code
 
-1. Buka terminal atau command prompt pada direktori proyek ini.
-2. Pastikan [Python/C++/Java] sudah terinstal. Cek dengan perintah:
+### Cara 1: Menggunakan Terminal Terintegrasi VS Code (Rekomendasi)
+1. Buka folder `pertemuan-02-dasar-python-NIM` menggunakan VS Code.
+2. Buka Terminal di VS Code dengan menekan tombol kombinasi `Ctrl + ~` (atau klik menu **Terminal** > **New Terminal**).
+3. Untuk menjalankan **Tugas Utama**, ketik perintah berikut di terminal lalu tekan Enter:
    ```bash
-   python --version
+   python tugas/kalkulator_koordinat.py
    ```
-3. Jalankan program dengan mengetik perintah berikut:
+4. Untuk menjalankan salah satu berkas **Latihan**, gunakan perintah:
    ```bash
-   python main.py
+   python latihan/01_biodata.py
    ```
+
+### Cara 2: Menggunakan Tombol Run (GUI)
+1. Buka berkas kode yang ingin dijalankan (misalnya: `kalkulator_koordinat.py`) di VS Code.
+2. Pastikan ekstensi **Python** dari Microsoft sudah terinstal di VS Code Anda.
+3. Klik tombol **Play (Run Python File)** ▷ yang berada di pojok kanan atas jendela editor VS Code.
 
 ---
 
@@ -45,10 +51,10 @@ Ikuti langkah-langkah berikut untuk menjalankan program dari terminal:
 Berikut adalah tabel hasil pengujian program menggunakan tiga skenario *test case* wajib untuk menghitung jarak dan titik tengah antara koordinat A dan B:
 
 | Kasus | Input Koordinat A | Input Koordinat B | Ekspektasi Jarak | Ekspektasi Titik Tengah | Status |
-| :---: | :--- | :--- | :---: | :---: | :--- | :---: |
+| :---: | :--- | :--- | :---: | :---: | :---: |
 | **1** | `(0, 0)` | `(3, 4)` | 5.00 | `(1.50, 2.00)` | ✅ Sukses |
-| **2** | `(-2, 1)` | `(4, 1)` | 6.00 | `(1.00, 1.00)`  | ✅ Sukses |
-| **3** | `(2.5, -1)` | `(2.5, 3)` | 4.00 | `(2.50, 1.00)` | ✅ Sukses |
+| **2** | `(-2, 1)` | `(4, 1)` | 6.00 | `(1.00, 1.00)` | ✅ Sukses |
+| **3** | `(2.5, -1)` | `(2.5, 3)` | 4.00 | `(2.50, 1.00)` | ✅ Sukses
 
 ---
 
