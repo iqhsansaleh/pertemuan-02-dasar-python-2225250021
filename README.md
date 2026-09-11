@@ -61,7 +61,10 @@ Berikut adalah tabel hasil pengujian program menggunakan tiga skenario *test cas
 ## 📝 Refleksi Singkat & Sumber
 
 ### Refleksi
-Selama mengerjakan tugas ini, saya belajar mengenai Dasar Python di VS Code dan Pengumpulan melalui GitHub. Kendala utama yang dihadapi adalah mengimpor berkas dari vscode ke github.
+* **Konsep yang paling saya pahami adalah** implementasi rumus matematika ke dalam kode Python di VS Code (seperti fungsi `math.sqrt`) **karena** langkah-langkah logika perhitungannya sangat jelas dan linier sesuai dengan rumus geometri dasar.
+* **Kesalahan yang saya temukan adalah** terjadinya *error* tipe data saat mencoba menghitung koordinat berupa angka desimal (float) **dan saya memperbaikinya dengan** mengubah fungsi input yang semula menggunakan `int()` menjadi `float()` agar program dapat menerima semua jenis angka.
+* **Pada pertemuan berikutnya saya ingin lebih memahami** struktur percabangan (kondisional) dan perulangan yang lebih kompleks agar bisa membuat program dengan validasi input yang lebih ketat.
+
 
 ### Sumber yang Digunakan
 1. **Visual Studio Code** - Lingkungan pengembangan terintegrasi (IDE) yang digunakan untuk penulisan, penyuntingan, dan pengujian kode program.
